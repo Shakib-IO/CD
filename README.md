@@ -1,5 +1,5 @@
 # CD
-This repo contains continuous delivery pipeline with AWS CodeBuild. I've implemented this pipeline with hugo template on aws.
+This repo contains ci/cd pipeline with AWS CodeBuild. I've implemented this pipeline with hugo template on aws.
 
 ##### Difference between Continuous Integration, Delivery, Deployment
 <img src = "https://www.saviantconsulting.com/images/blog/continuous-integration-continuous-delivery-and-continuous-deployment.gif">
