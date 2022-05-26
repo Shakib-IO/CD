@@ -1,6 +1,11 @@
 # CD
 This repo contains continuous delivery pipeline with AWS CodeBuild. I've implemented this pipeline with hugo template on aws.
 
+##### Difference between Continuous Integration, Delivery, Deployment
+<img src = "https://www.saviantconsulting.com/images/blog/continuous-integration-continuous-delivery-and-continuous-deployment.gif">
+
+---
+
 #### Few AWS services related to CI/CD
 - **AWS CodeCommit** – ```A fully-managed source control service that hosts secure Git-based repositories```. CodeCommit makes it easy for teams to collaborate on code in a secure and highly scalable ecosystem. This solution uses CodeCommit to create a repository to store the application and deployment codes.
 - **AWS CodeBuild** – ```A fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy, on a dynamically created build server.``` This solution uses CodeBuild to build and test the code, which we deploy later.
