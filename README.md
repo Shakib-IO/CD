@@ -19,3 +19,5 @@ To unzip the tar.gz use this
 ```
 tar xzvf hugo_0.99.1_Linux-32bit.tar.gz
 ````
+
+##### [Resource](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/continuous-delivery.html)
