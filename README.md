@@ -14,3 +14,8 @@ This repo contains ci/cd pipeline with AWS CodeBuild. I've implemented this pipe
 - **AWS CloudWatch Events** – ```An AWS CloudWatch Events rule is created to trigger the CodePipeline on a Git commit to the CodeCommit repository.```
 - **Amazon Simple Storage Service (Amazon S3)** – ```An object storage service that offers industry-leading scalability, data availability, security, and performance.``` This solution uses an S3 bucket to store the build and deployment artifacts created during the pipeline run.
 - **AWS Key Management Service (AWS KMS)** – ```AWS KMS makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications.``` This solution uses AWS KMS to make sure that the build and deployment artifacts stored on the S3 bucket are encrypted at rest.
+
+To unzip the tar.gz use this 
+```
+tar xzvf hugo_0.99.1_Linux-32bit.tar.gz
+````
