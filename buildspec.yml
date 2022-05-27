@@ -18,7 +18,7 @@ phases:
   build:
     commands:
       - rm -rf public
-      - hugo
+      - hugo/docs/
   post_build:
     commands:
       - echo Build completed on `date`
