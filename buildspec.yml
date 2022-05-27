@@ -12,14 +12,15 @@ phases:
       - cd /tmp
       - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
       - tar -xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-      - mv hugo /usr/bin/hugo
+      - mkdir -p ~/bin
+      - mv hugo ~/bin/
       - cd - 
       - rm -rf /tmp/*
   build:
     commands:
       - rm -rf public
-      - hugo serve --bind=0.0.0.0 --port=8080 --baseURL=http://52.201.88.139/
+      - hugo 
       - git submodule 
   post_build:
-    commands:
+    commands
       - echo Build completed on `date`
