@@ -18,8 +18,6 @@ phases:
   build:
     commands:
       - rm -rf public
-      - cd quickstart
-      - hugo 
   post_build:
     commands:
       - echo Build completed on `date`
