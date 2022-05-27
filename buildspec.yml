@@ -20,5 +20,5 @@ phases:
       - rm -rf public
       - hugo
   post_build:
-    commands
+    commands:
       - echo Build completed on `date`
