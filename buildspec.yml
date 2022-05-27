@@ -18,7 +18,8 @@ phases:
   build:
     commands:
       - rm -rf public
-      - hugo deploy
+      - cd usr/bin/hugo
+      - hugo
   post_build:
     commands:
       - echo Build completed on `date`
