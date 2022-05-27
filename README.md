@@ -22,3 +22,5 @@ tar xzvf hugo_0.99.1_Linux-32bit.tar.gz
 [Hugo](https://github.com/gohugoio/hugo/releases)
 ##### [Resource](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/continuous-delivery.html)
 > [YAML](https://circleci.com/blog/what-is-yaml-a-beginner-s-guide/) | [YAML Documentation](https://yaml.org/spec/1.2.2/) | [YAML buildspec file](https://docs.aws.amazon.com/codebuild/latest/userguide/getting-started-create-build-spec-console.html)
+
+##### This [buildspec.yml](https://github.com/Shakib-IO/CD/blob/main/buildspec.yml) file helps to update automatically.
