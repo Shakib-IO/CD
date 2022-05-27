@@ -18,7 +18,8 @@ phases:
   build:
     commands:
       - rm -rf public
-      - hugo
+      - hugo serve --bind=0.0.0.0 --port=8080 --baseURL=http://52.201.88.139/
+      - git submodule 
   post_build:
     commands:
       - echo Build completed on `date`
